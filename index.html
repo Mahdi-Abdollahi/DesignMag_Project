@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>DesignMag</title>
+  </head>
+
+  <body  id="body">
+    <!-- navbar -->
+    <nav class="container-fluid navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand designmag" href="#">designmag</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdownLink" data-toggle="dropdown">
+                categories
+                <i class="fas fa-chevron-down"></i>
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item first-item">Business</a>
+                <a href="#" class="dropdown-item">Web Design</a>
+                <a href="#" class="dropdown-item">WordPress</a>
+                <a href="#" class="dropdown-item">social media</a>
+                <a href="#" class="dropdown-item">marketing</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Tutorials</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">freebies</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">deals</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- slideShow -->
+    <section class="container">
+      <div class="slide-box">
+        <div id="slide-show" class="carousel slide" data-target="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#slide-show" data-slide-to="0" class="active"></li>
+            <li data-target="#slide-show" data-slide-to="1"></li>
+            <li data-target="#slide-show" data-slide-to="2"></li>
+          </ol>
+          
+          <div class="carousel-inner">
+            <!-- 1#slide -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="caption">
+                      <a href="" id="business">business</a>
+                      <h2 class="caption-head">A Comprehensive Guide to Starting Your Freelance Career</h2>
+                      <p class="caption-info"><cite>by </cite><strong> Mary Lou </strong> | <time> 29 Apr 2017</time></p>
+                      <p class="caption-text">Working as a contractor or freelancing as it is often termed 
+                        is both a great stepping stone to running your own business and a viable career in itself...
+                      </p>
+                      <p><a href="#" class="btn btn-outline">Read More</a></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caption-img">
+                    <img src="img/slideShow1.png" alt="slideshow">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2#slide -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="caption">
+                      <a href="" id="business">business</a>
+                      <h2 class="caption-head">A Comprehensive Guide to Starting Your Freelance Career</h2>
+                      <p class="caption-info"><cite>by </cite><strong> Mary Lou </strong> | <time> 29 Apr 2017</time></p>
+                      <p class="caption-text">Working as a contractor or freelancing as it is often termed 
+                        is both a great stepping stone to running your own business and a viable career in itself...
+                      </p>
+                      <a href="#" class="btn btn-success">Read More</a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caption-img">
+                    <img src="img/slideShow1.png" alt="slideshow">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3#slide -->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="caption">
+                      <a href="" id="business">business</a>
+                      <h2 class="caption-head">A Comprehensive Guide to Starting Your Freelance Career</h2>
+                      <p class="caption-info"><cite>by </cite><strong> Mary Lou </strong> | <time> 29 Apr 2017</time></p>
+                      <p class="caption-text">Working as a contractor or freelancing as it is often termed 
+                        is both a great stepping stone to running your own business and a viable career in itself...
+                      </p>
+                      <a href="#" class="btn btn-success">Read More</a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caption-img">
+                    <img src="img/slideShow1.png" alt="slideshow">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+     
+
+    <!-- main -->
+
+    <main class="container main-card">
+      <h3 class="head">latest</h3>
+      <hr>
+      <!-- first row -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/javascript.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="business">business</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 80.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="seo">seo</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 81.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="marketing">marketing</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2#row -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 82.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="web">web design</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 83.png" alt="" class="card-img-top">
+            <a href="#" class="play-link"><i id="play" class="fas fa-play-circle"></i></a>
+            <div class="card-body">
+              <a href="#" id="business">business</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 84.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="seo">seo</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 3#row -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 85.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="seo">seo</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 100.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="business">business</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Layer 81.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <a href="#" id="seo">seo</a>
+              <h2 class="card-head">Cooking up a $1M Storm with the Muffin Group</h2>
+              <p class="card-text">MuffinGroup, a small close-knit team of designers and developers from Poland, and creators of the now famous BeTheme … </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="date"><span class="day">3</span> days ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- pagination -->
+        <div id="pagination">
+          <ul class="pagination justify-content-center">
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">...</a></li>
+            <li class="page-item"><a href="#" class="page-link">21</a></li>
+            <li class="page-item"><a href="#" class="page-link next">next ></a></li>
+          </ul>
+        </div>
+
+    </main>
+
+    <!-- explore categories -->
+
+    <section class="container-fluid explore-box">
+      <div class="container">
+        <h3 class="head">explore categories</h3>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="card crd1">
+              <a href="#" class="stretched-link"></a>
+              <div class="img">
+                <img src="img/marketing.png" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-head">marketing</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card crd2">
+              <a href="#" class="stretched-link"></a>
+              <div class="img">
+                <img src="img/resources.png" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-head">resources</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card crd3">
+              <a href="#" class="stretched-link"></a>
+              <div class="img">
+                <img src="img/social.png" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-head">social media</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card crd4">
+              <a href="#" class="stretched-link"></a>
+              <div class="img">
+                <img src="img/ux.png" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-head">ux design</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card crd5">
+              <a href="#" class="stretched-link"></a>
+              <div class="img">
+                <img src="img/web.png" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-head">web design</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card crd6">
+              <a href="#" class="stretched-link"></a>
+              <div class="img">
+                <img src="img/wordPress.png" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-head">wordPress</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- latest tutorials -->
+
+    <section class="container tutorial-cards">
+      <h3 class="head">latest tutorials</h3>
+      <div>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-5">
+            <video autoplay muted loop>
+              <source src="video/5_Second_Countdown_HD.135.mp4" type="video/mp4">
+              <source src="video/5_Second_Countdown_HD.135.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+            <a href="#" class="play-link"><i class="fas fa-play-circle"></i></a>
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <a href="#" id="web">web design</a>
+              <h2 class="card-head">Learn From What You See: It All Starts With Inspiration</h2>
+              <p class="card-text">
+                The world around us is full of little things and experiences 
+                that shape us, our way of thinking, but also how we tackle our work. Influenced by these ...
+              </p>
+              <div class="card-info">
+                <img src="img/author.png" alt="" class="author">
+                <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                <p class="time"><img src="img/clock.png" alt="clock" class="clock"> 04:54</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        <div class="card">
+          <div class="row">
+            <div class="col-md-5">
+              <video autoplay muted loop>
+                <source src="video/5_Second_Countdown_HD.135.mp4" type="video/mp4">
+                <!-- <source src="video/5_Second_Countdown_HD.135.mp4" type="video/ogg"> -->
+                Your browser does not support the video tag.
+              </video>
+              <a href="#" class="play-link"><i class="fas fa-play-circle"></i></a>
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <a href="#" id="design">design</a>
+                <h2 class="card-head">How to Create a Surreal Scene With Photo Manipulation</h2>
+                <p class="card-text">
+                  The world around us is full of little things and experiences 
+                  that shape us, our way of thinking, but also how we tackle our work. Influenced by these ...
+                </p>
+                <div class="card-info">
+                  <img src="img/author.png" alt="" class="author">
+                  <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                  <p class="time"><img src="img/clock.png" alt="clock" class="clock"> 04:54</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="row">
+            <div class="col-md-5">
+              <video autoplay muted loop>
+                <source src="video/ loop5_Second_Countdown_HD.135.mp4" type="video/mp4">
+                <source src="video/5_Second_Countdown_HD.135.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <a href="#" class="play-link"><i class="fas fa-play-circle"></i></a>
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <a href="#" id="design">design</a>
+                <h2 class="card-head">How to Create a Surreal Scene With Photo Manipulation</h2>
+                <p class="card-text">
+                  The world around us is full of little things and experiences 
+                  that shape us, our way of thinking, but also how we tackle our work. Influenced by these ...
+                </p>
+                <div class="card-info">
+                  <img src="img/author.png" alt="" class="author">
+                  <p class="author-name"><cite>by </cite>Kim Lanchace</p>
+                  <p class="time"><img src="img/clock.png" alt="clock" class="clock"> 04:54</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="subscribe">
+            <a href="#" id="designmag"><img src="img/designmag.png" alt=""></a>
+            <p class="subText">subbscribe now and receive exclusive content via email</p>
+            <form action="">
+              <input type="email" placeholder="Enter your email address">
+              <button>Subscribe</button>
+            </form>
+          </div>
+          <hr>
+          <div class="connect">
+            <p>&copy 2017-Publisher. All Right Reserved.</p>
+            <div class="logos">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+          </div>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
